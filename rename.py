@@ -1,4 +1,10 @@
-﻿import os
+﻿"""
+赋值Windows聚焦图片
+Windows聚焦图片默认位置在用户目录下的AppData\Local\Packages\Microsoft.Windows
+.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets目录下
+先复制到用户Pictures目录下临时文件，再复制到Pictures\聚焦目录顺便重命名
+"""
+import os
 from PIL import Image
 
 
